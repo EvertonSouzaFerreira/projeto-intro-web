@@ -33,35 +33,35 @@ const bookStore =[]
 
 let book01 = {
     nome: 'diario de um banana',
-   
     livros: 16,
     promocao: true,
+    disponivel: true,
     coletaneas: ['Turophobia', 'Rodrick Rules', 'The Last Straw']
 }
 
 let book02 = {
     nome: 'percy Jackson',
-    
     livros: 8,
     promocao: true,
+    disponivel: true,
     coletaneas: ['Lightning Thief', 'Sea of Monsters', "Titan's Curse"]
 }
 
 let book03 = {
     nome: 'world warcraft',
-    
     livros: 10,
     promocao: true,
+    disponivel: true,
     coletaneas: ['Of Blood and Honor', 'Day of the dragon', 'Lord of the Clans']
 }
 
 
 let book04 = {
-    nome: 'nome livro',
-    
+    nome: 'the little prince',
     livros: 1,
     promocao: true,
-    coletaneas: ['livro 1', 'livro 2', 'livro 3']
+    disponivel: true,
+    coletaneas: ['the little prince']
 }
 
 //if para adcionar os itens no array
@@ -100,7 +100,6 @@ for (let string in bookStore) {
 for ( let book in bookStore) {
     const item = bookStore[book]
      console.log(item)
-    
 }
 
 // 3. Crie uma função que receba como parâmetro um objeto, 
